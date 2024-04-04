@@ -1,18 +1,25 @@
 
-#icon-container{
-    margin: 0;
-    position: absolute;
-    left: 85%;
-    top: 21%;
-}
 
-#list-btn, #card-btn {
+
+.list-btn, .card-btn {
     font-size: 1.5em;
     color: rgb(118, 118, 118);
     margin: 0 10px;
 }
 
-#list-btn:hover, #card-btn:hover {
+.list-btn:hover, .card-btn:hover {
     color: rgb(53, 104, 224);
 }
+.list-group{
+    display: flex;
+    flex-direction: column;
+    max-width: 80%vw;
+}
 
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* text-align: center; */
+    
+}

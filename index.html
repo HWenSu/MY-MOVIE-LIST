@@ -34,25 +34,22 @@
     </div>
   </nav>
   <!-- Search Bar -->
-  <form class="row row-cols-lg-auto g-3 align-items-center m-4" id='search-form'>
+  <form class="row row-cols-lg-auto g-3 align-items-center m-4 position-relative" id='search-form'>
     <div class="col-12">
       <label class="visually-hidden" for="inlineFormInputGroupUsername">Search Keyword</label>
       <div class="input-group">
         <input type="text" class="form-control" id="search-input" placeholder="Keyword...">
       </div>
     </div>
-
     <div class="col-12">
       <button type="submit" class="btn btn-primary">Search</button>
     </div>
-  </form>
-
     <!-- Switch list and card btn -->
-    <div id="icon-container">
-      <i class="fa fa-bars" id="list-btn" aria-hidden="true"></i>
-      <i class="fa fa-th" id="card-btn" aria-hidden="true"></i>
-      </div>
-
+    <div id="style-display-btn" class="position-absolute end-0 ">
+        <i class="fa fa-bars list-btn" aria-hidden="true"></i>
+        <i class="fa fa-th card-btn" aria-hidden="true"></i>     
+    </div>
+  </form>
 
   <!-- Movie List -->
   <div class="container mt-5">
